@@ -50,7 +50,7 @@ public class AlphaController {
         //返回相应数据
         response.setContentType("text/html;charset=utf-8");
         try (
-                PrintWriter writer = response.getWriter();
+                PrintWriter writer = response.getWriter()
         ){
             writer.write("<h1>newcoder.com</h1>");
         } catch (IOException e) {
