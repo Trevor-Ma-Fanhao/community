@@ -168,7 +168,7 @@
 												</a>
 											</li>
 											<li class="d-inline ml-2">|</li>
-											<li class="d-inline ml-2"><a th:href="|#huifu-${rvoStat.count}|" data-toggle="collapse" class="text-primary">回复</a></li>
+											<li class="d-inline ml-2"><a th:href="|huifu-${rvoStat.count}|" data-toggle="collapse" class="text-primary">回复</a></li>
 										</ul>
 										<div th:id="|huifu-${rvoStat.count}|" class="mt-4 collapse">
 											<form method="post" th:action="@{|/comment/add/${post.id}|}">
