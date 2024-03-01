@@ -21,7 +21,9 @@ import org.springframework.transaction.support.TransactionTemplate;
 
 import java.util.Date;
 
-@Service
+
+//@Service
+
 //@Scope("singleton")
 //每次访问获得一个新的实例
 //@Scope("prototype")
